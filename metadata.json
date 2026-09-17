@@ -1,0 +1,6 @@
+{
+  "name": "Romantic Interactive Scrapbook",
+  "description": "A soft, romantic, interactive digital scrapbook with a landing question, journal flashcards, and automated memory slideshow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Courier Prime', 'Cutive Mono', 'Courier New', Courier, monospace;
+    color: #000000;
+    letter-spacing: -0.01em;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcecee;
+    color: #000000;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom soft scrollbar for long flashcard text */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7d5dc;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2a8b5;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cf8d9d;
+}
